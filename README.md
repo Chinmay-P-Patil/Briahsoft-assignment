@@ -1,5 +1,8 @@
 # GitHub Profile Analyzer
 
+Follow the deployment instructions or just go to this link to check the assignment
+https://briahsoft-assignment.vercel.app/
+
 A React app that analyzes a GitHub user's public activity, showing their repositories and daily commit chart.
 
 ## Tech Stack
