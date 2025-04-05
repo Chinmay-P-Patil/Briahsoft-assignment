@@ -43,12 +43,12 @@ const App = () => {
   return (
     <>
     <div className="p-4 flex flex-col items-center gap-5">
-      <div className="text-4xl mb-4 font-bold">GitHub Profile Analyzer</div>
+      <div className="text-4xl mb-4 font-bold">GitHub Analyzer</div>
       <Input
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         placeholder="Enter GitHub username"
-        className='w-100'
+        className='w-80'
       />
       <Button onClick={fetchData} disabled={loading}>
         {loading ? 'Loading...' : 'Get the activities'}
